@@ -1,0 +1,24 @@
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.6s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color:global-variable-exists($name:"verde" );
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+   
+    display: none;
+    overflow: hidden;
+  }
