@@ -7,11 +7,11 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content color="dark">
-  <img src="../../assets/img/tec1.jpg" alt="">
-  <ion-card color="verde">
+<ion-content>
+
+  <ion-card style="border-radius: 10px;">
     <ion-card-header>
-      <ion-item color="naranja" style="border-radius: 5px;">
+      <ion-item color="naranja" style="border-radius: 30px;">
         <ion-icon name="navigate-outline" slot="start" color="light"></ion-icon>
         <ion-label color="light"><strong>Dirección</strong></ion-label>
       </ion-item>
@@ -24,36 +24,105 @@
     <ion-card-content>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15007.974575288694!2d-97.3929348!3d19.8824903!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x113530f496e336f9!2sInstituto%20Tecnol%C3%B3gico%20Superior%20de%20Teziutl%C3%A1n!5e0!3m2!1ses-419!2smx!4v1595276394943!5m2!1ses-419!2smx"
-        width="100%" height="100%" frameborder="0" style="border:0; border-radius: 10px;"  allowfullscreen="" aria-hidden="false"
-        tabindex="0"></iframe>
+        width="100%" height="100%" frameborder="0" style="border:0; border-radius: 10px;" allowfullscreen=""
+        aria-hidden="false" tabindex="0"></iframe>
     </ion-card-content>
   </ion-card>
-  <ion-card color="verde">
+  <ion-card style="border-radius: 10px;">
     <ion-card-header>
-      <ion-item color="naranja" style="border-radius: 5px;">
+      <ion-item color="naranja" style="border-radius: 30px;">
         <ion-icon name="call-outline" slot="start" color="light"></ion-icon>
-        <ion-label color="light" ><strong>Teléfonos</strong></ion-label>
+        <ion-label color="light"><strong>Teléfonos</strong></ion-label>
       </ion-item>
-   </ion-card-header>
-     <ion-card-content color="success">
-         <ion-list>
-           <ion-item>
-             <ion-label>
-               231-31-14000
-             </ion-label>
-           </ion-item>
-           <ion-item>
-             <ion-label>
-               231-31-14000
-             </ion-label>
-           </ion-item>
-           <ion-item>
-             <ion-label>
-               231-31-14000
-             </ion-label>
-           </ion-item>
-         </ion-list>
-     </ion-card-content>
+    </ion-card-header>
+    <ion-card-content color="success">
+      <ion-list>
+        <ion-item>
+          <ion-label>
+            231-31-14000
+          </ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>
+            231-31-14000
+          </ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>
+            231-31-14000
+          </ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
   </ion-card>
-  
+  <ion-card>
+    <ion-card-header>
+      <ion-item color="naranja" style="border-radius: 30px;">
+        <ion-icon name="person-outline" slot="start" color="light"></ion-icon>
+        <ion-label color="light"><strong>Ponerme en contacto</strong></ion-label>
+      </ion-item>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-label color="verde"><strong>Nombre completo:</strong></ion-label>
+      <ion-input id="nombre"></ion-input>
+      <ion-label color="verde"><strong>Genero:</strong></ion-label>
+      <ion-select placeholder="Seleccionar uno" color="verde">
+        <ion-select-option value="f" color="verde">Femenino</ion-select-option>
+        <ion-select-option value="m" color="verde">Masculino</ion-select-option>
+      </ion-select>
+      <ion-label color="verde"><strong>Estado:</strong></ion-label>
+      <ion-select placeholder="Seleccionar uno" color="verde">
+        <ion-select-option value="Aguascalientes" color="verde">Aguascalientes</ion-select-option>
+        <ion-select-option value="Baja California" color="verde">Baja California</ion-select-option>
+        <ion-select-option value="Baja California" color="verde">Baja California Sur</ion-select-option>
+        <ion-select-option value="Campeche" color="verde">Campeche</ion-select-option>
+        <ion-select-option value="Coahuila" color="verde">Coahuila</ion-select-option>
+        <ion-select-option value="Colima" color="verde">Colima</ion-select-option>
+        <ion-select-option value="Chiapas" color="verde">Chiapas</ion-select-option>
+        <ion-select-option value="Chihuaha" color="verde">Chihuaha</ion-select-option>
+        <ion-select-option value="Ciudad de México" color="verde">Ciudad de México</ion-select-option>
+        <ion-select-option value="Durango" color="verde">Durango</ion-select-option>
+        <ion-select-option value="Guanajuato" color="verde">Guanajuato</ion-select-option>
+        <ion-select-option value="Guerrero" color="verde">Guerrero</ion-select-option>
+        <ion-select-option value="Hidalgo" color="verde">Hidalgo</ion-select-option>
+        <ion-select-option value="Jalisco" color="verde">Jalisco</ion-select-option>
+        <ion-select-option value="México" color="verde">México</ion-select-option>
+        <ion-select-option value="Michoacán" color="verde">Michoacán</ion-select-option>
+        <ion-select-option value="Morelos" color="verde">Morelos</ion-select-option>
+        <ion-select-option value="Nayarit" color="verde">Nayarit</ion-select-option>
+        <ion-select-option value="Nuevo León" color="verde">Nuevo León</ion-select-option>
+        <ion-select-option value="Oaxaca" color="verde">Oaxaca</ion-select-option>
+        <ion-select-option value="Puebla" color="verde">Puebla</ion-select-option>
+        <ion-select-option value="Querétaro" color="verde">Querétaro</ion-select-option>
+        <ion-select-option value="Quintana Roo" color="verde">Quintana Roo</ion-select-option>
+        <ion-select-option value="San Luis Potosí" color="verde">San Luis Potosí</ion-select-option>
+        <ion-select-option value="Sinaloa" color="verde">Sinaloa</ion-select-option>
+        <ion-select-option value="Sonora" color="verde">Sonora</ion-select-option>
+        <ion-select-option value="Tabasco" color="verde">Tabasco</ion-select-option>
+        <ion-select-option value="Tamaulipas" color="verde">Tamaulipas</ion-select-option>
+        <ion-select-option value="Tlaxcala" color="verde">Tlaxcala</ion-select-option>
+        <ion-select-option value="Veracruz" color="verde">Veracruz</ion-select-option>
+        <ion-select-option value="Yucatán" color="verde">Yucatán</ion-select-option>
+        <ion-select-option value="Zacatecas" color="verde">Zacatecas</ion-select-option>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ion-select>
+      <ion-label color="verde"><strong>Correo:</strong></ion-label>
+      <ion-input id="correo"></ion-input>
+      <ion-label color="verde"><strong>Comentario:</strong></ion-label>
+      <ion-input id="comentario"></ion-input>
+    </ion-card-content>
+  </ion-card>
+
 </ion-content>
