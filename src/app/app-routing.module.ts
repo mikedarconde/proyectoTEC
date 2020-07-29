@@ -28,6 +28,27 @@ const routes: Routes = [
     path: 'informatica',
     loadChildren: () => import('./informatica/informatica.module').then( m => m.InformaticaPageModule)
   },
+  {
+    path: 'mecatronica',
+    loadChildren: () => import('./mecatronica/mecatronica.module').then( m => m.MecatronicaPageModule)
+  },
+  {
+    path: 'industrial',
+    loadChildren: () => import('./industrial/industrial.module').then( m => m.IndustrialPageModule)
+  },
+  {
+    path: 'sistemas',
+    loadChildren: () => import('./sistemas/sistemas.module').then( m => m.SistemasPageModule)
+  },
+  {
+    path: 'gestionempresarial',
+    loadChildren: () => import('./gestionempresarial/gestionempresarial.module').then( m => m.GestionempresarialPageModule)
+  },
+  {
+    path: 'ind-alimentarias',
+    loadChildren: () => import('./ind-alimentarias/ind-alimentarias.module').then( m => m.IndAlimentariasPageModule)
+  },
+
 
 ];
 
