@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AlertController, IonHeader } from '@ionic/angular';
+
 
 @Component({
   selector: 'app-informatica',
@@ -8,7 +8,7 @@ import { AlertController, IonHeader } from '@ionic/angular';
 })
 export class InformaticaPage implements OnInit {
 
-  constructor(public alerta: AlertController) {}
+  constructor() {}
 
  
 
@@ -32,41 +32,8 @@ export class InformaticaPage implements OnInit {
       });
     }
       }
-      async altObjetivoGeneral() {
-        const alert = await this.alerta.create({
-        
-          cssClass : 'styleAlert' ,
-          header: 'Objetivo General',
-          subHeader: 'Formar profesionales competentes en el diseño, desarrollo, implementación y administración de servicios informáticos y gestión de proyectos con una visión sistémica, tecnológica y estratégica, ofreciendo soluciones innovadoras e integrales a las organizaciones, de acuerdo con las necesidades globales, actuales y emergentes, comprometidos con su entorno, desempeñándose con actitud ética, emprendedora y de liderazgo.',
-         
-        });
-        await alert.present();
-
-      }
-    
-    async altMision() {
-      const alert = await this.alerta.create({
-      
-        cssClass : 'styleAlert' ,
-        header: 'Misión',
-        subHeader: 'La División de ingeniería Informática tiene como Misión, formar profesionales competentes en el diseño, desarrollo, implementación y administración de proyectos informáticos con un enfoque tecnológico y de calidad; ofreciendo soluciones innovadoras, integrales y de vanguardia para las organizaciones, con el compromiso sustentable de su entorno y desempeñándose con actitud ética, emprendedora y de liderazgo.',
-       
-      });
-      await alert.present();
-
-    }
-    async altVision() {
-      const alert = await this.alerta.create({
-      
-        cssClass : 'styleAlert' ,
-        header: 'Visión',
-        subHeader: 'Ser la carrera con perfil tecnológico más reconocida en la región de Teziutlán, Puebla, que ofrezca un proceso de enseñanza-aprendizaje certificado y acreditado, comprometida en la construcción e implementación de soluciones Informáticas de vanguardia, así como la formación integral del alumnado, contribuyendo al desarrollo generalizado y sustentable de las organizaciones en la región.',
-       
-      });
-      await alert.present();
-
-    }
-
+     
+   
  
       
   }
