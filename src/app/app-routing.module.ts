@@ -49,6 +49,10 @@ const routes: Routes = [
     path: 'ind-alimentarias',
     loadChildren: () => import('./ind-alimentarias/ind-alimentarias.module').then( m => m.IndAlimentariasPageModule)
   },
+  {
+    path: 'certificaciones',
+    loadChildren: () => import('./certificaciones/certificaciones.module').then( m => m.CertificacionesPageModule)
+  },
 
 
 ];
