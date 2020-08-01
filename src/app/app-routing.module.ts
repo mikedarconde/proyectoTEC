@@ -52,7 +52,11 @@ const routes: Routes = [
   {
     path: 'certificaciones',
     loadChildren: () => import('./certificaciones/certificaciones.module').then( m => m.CertificacionesPageModule)
+  },  {
+    path: 'canal',
+    loadChildren: () => import('./canal/canal.module').then( m => m.CanalPageModule)
   },
+
 
 
 ];
