@@ -8,17 +8,19 @@
     border: none;
     outline: none;
     transition: 0.6s;
+    display: inline-block;
+   position: relative;
+    left: 48%;
+    transform: translateX(-50%);
   }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  .active, .accordion:hover {
-    background-color:global-variable-exists($name:"verde" );
-  }
   
   /* Style the accordion panel. Note: hidden by default */
   .panel {
-    padding: 0 18px;
+    padding:  18px;
    
     display: none;
     overflow: hidden;
   }
+  
