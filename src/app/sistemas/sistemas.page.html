@@ -10,64 +10,53 @@
 
 <ion-content color="dark">
 
-    
+
    <ion-card color="dark">
     <div align="center">
-    <ion-img style="width: 300px; height: 300px;" src="../../assets/imgsistemas/Psistemas.png"></ion-img>
+    <ion-img src="../../assets/imgsistemas/Psistemas.png"></ion-img>
    </div>
    </ion-card>
    
    
   
-   <ion-card color="dark">
-    
-    
-   <ion-slides pager="true">
+   <ion-card color="verde">
+    <ion-card color="dark" class="ion-padding" >
+    <ion-slides pager="true" >
     <ion-slide>
-    <div class="ion-text-justify">
-    <div align="center">
-    <font color="white"> <b>Objetivo General</b></font></div><br>
-    <h6><font face="Verdana"><font color="white">Formar profesionistas líderes con visión estratégica y 
+   
+    <ion-text color="light"><ion-button color="naranja">
+      <ion-icon name="checkmark-circle"></ion-icon> 
+      &nbsp;Objetivo General</ion-button>
+      <div class="ion-text-justify">
+      <h6>Formar profesionistas líderes con visión estratégica y 
       amplio sentido ético; capaz de diseñar, desarrollar, implementar y administrar tecnología computacional 
-      para aportar soluciones innovadoras en beneficio de la sociedad; en un contexto global, multidisciplinario y sostenible.</font></font></h6>
-    </div>
-    </ion-slide>
-    
-    
-    <ion-slide>
-    <div class="ion-text-justify">
-    <div align="center">
-    <font color="white"> <b>Mision</b></font></div><br>
-    <h6><font face="Verdana"><font color="white">""""
-    </font></font></h6>
-    </div>
-    </ion-slide>
-    
-    <ion-slide>
-    <div class="ion-text-justify">
-    <div align="center">
-    <font color="white"><b>Visión</b></font></div><br>
-    <h6><font face="Verdana"><font color="white">""""</font></font></h6>
-    </div>
-    </ion-slide>
-    
+      para aportar soluciones innovadoras en beneficio de la sociedad; en un contexto global, multidisciplinario y sostenible.
+    </h6>
+  </div>
+    </ion-text>
+  </ion-slide>
+
    </ion-slides>
     
    </ion-card>
+  </ion-card>
   
-    <div>
-      <ion-card button (click)="cardClick()"
-     class="accordion" style="border-radius: 5px;" color="verde" > 
-     <div class="ion-text-center"><b>Retícula de Ingeniería en Sistemas Computacionales Escolarizado ISIC-2010-224</b></div></ion-card>
-    <div class="panel">  
+  <div>
+   
+    <ion-card button 
+    class="accordion" color="naranja" >
+    <div class="ion-text-center"><b><ion-icon name="caret-down-outline"></ion-icon>
+     &nbsp;Retícula de Ingeniería en Sistemas Computacionales Escolarizado ISIC-2010-224</b></div></ion-card>
+     <div class="panel">  
+   
 
  
-  <div>
-  <ion-card button (click)="cardClick()"
- class="accordion" style="border-radius: 5px;" color="naranja">Primer Semestre</ion-card>
-<div class="panel">  
-    <ul>
-      <font face="Verdana">
+      <div>
+        <ion-card button 
+       class="accordion" style="border-radius: 5px;" color="verde">Primer Semestre</ion-card>
+      <div class="panel">  
+
+          <ul>
       <li> CÁLCULO DIFERENCIAL </li>
       <li> FUNDAMENTOS DE PROGRAMACIÓN</li>
       <li> TALLER DE ÉTICA </li>
@@ -76,14 +65,14 @@
       <li> FUNDAMENTOS DE INVESTIGACIÓN</li>
       <li> INGLÉS I</li>
       <li> ACTIVIDAD EXTRAESCOLAR I</li>
-    </font>
+   
     </ul>
   </div>
 </div>
 
 <div>
-  <ion-card button (click)="cardClick()"
- class="accordion" style="border-radius: 5px;" color="naranja">Segundo Semestre</ion-card>
+  <ion-card button 
+ class="accordion" style="border-radius: 5px;" color="verde">Segundo Semestre</ion-card>
 <div class="panel">  
     <ul>
       <li> CÁLCULO INTEGRAL </li>
@@ -99,8 +88,8 @@
 </div>
 
 <div>
-  <ion-card button (click)="cardClick()"
- class="accordion" style="border-radius: 5px;" color="naranja">Tercer Semestre</ion-card>
+  <ion-card button 
+ class="accordion" style="border-radius: 5px;" color="verde">Tercer Semestre</ion-card>
 <div class="panel">  
     <ul>
       <li> CÁLCULO VECTORIAL </li>
@@ -116,8 +105,8 @@
 </div>
 
 <div>
-  <ion-card button (click)="cardClick()"
- class="accordion" style="border-radius: 5px;" color="naranja">Cuarto Semestre</ion-card>
+  <ion-card button 
+ class="accordion" style="border-radius: 5px;" color="verde">Cuarto Semestre</ion-card>
 <div class="panel">  
     <ul>
       <li> ECUACIONES DIFERENCIALES </li>
@@ -132,11 +121,13 @@
   </div>
 </div>
 
-<div>
-  <ion-card button (click)="cardClick()"
- class="accordion" style="border-radius: 5px;" color="naranja">Quinto Semestre</ion-card>
-<div class="panel">  
-    <ul>
+
+  <div>
+    <ion-card button 
+   class="accordion" style="border-radius: 5px;" color="verde">Quinto Semestre</ion-card>
+  <div class="panel">  
+
+      <ul>
       <li> LENGUAJES Y AUTÓMATAS I </li>
       <li> FUNDAMENTOS DE TELECOMUNICACIONES</li>
       <li> TALLER DE BASES DE DATOS </li>
@@ -153,8 +144,8 @@
 
 
 <div>
-  <ion-card button (click)="cardClick()"
- class="accordion" style="border-radius: 5px;" color="naranja">Sexto Semestre</ion-card>
+  <ion-card button 
+ class="accordion" style="border-radius: 5px;" color="verde">Sexto Semestre</ion-card>
 <div class="panel">  
     <ul>
       <li> LENGUAJES Y AUTÓMATAS II </li>
@@ -170,8 +161,8 @@
 </div>
 
 <div>
-  <ion-card button (click)="cardClick()"
- class="accordion" style="border-radius: 5px;" color="naranja">Septimo Semestre</ion-card>
+  <ion-card button 
+ class="accordion" style="border-radius: 5px;" color="verde">Septimo Semestre</ion-card>
 <div class="panel">  
     <ul>
       <li> PROGRAMACIÓN LÓGICA Y FUNCIONAL </li>
@@ -188,8 +179,8 @@
 
 
 <div>
-  <ion-card button (click)="cardClick()"
- class="accordion" style="border-radius: 5px;" color="naranja">Octavo Semestre</ion-card>
+  <ion-card button 
+ class="accordion" style="border-radius: 5px;" color="verde">Octavo Semestre</ion-card>
 <div class="panel">  
     <ul>
       <li>INTELIGENCIA ARTIFICIAL </li>
@@ -205,8 +196,8 @@
 
 
 <div>
-  <ion-card button (click)="cardClick()"
- class="accordion" style="border-radius: 5px;" color="naranja">Noveno Semestre</ion-card>
+  <ion-card button 
+ class="accordion" style="border-radius: 5px;" color="verde">Noveno Semestre</ion-card>
 <div class="panel">  
     <ul>
       <li> RESIDENCIA
@@ -227,17 +218,19 @@
 
 
 <div>
-  <ion-card button (click)="cardClick()"
- class="accordion" style="border-radius: 5px;" color="verde">
- <div class="ion-text-center">
-<b> Retícula de Ingeniería en Sistemas Computacionales Modular ISIC-2010-224</b></div></ion-card>
-<div class="panel">  
 
+  <div>
+    <ion-card button 
+   class="accordion" style="border-radius: 5px;" color="naranja">
+   <div class="ion-text-center">
+  <b><ion-icon name="caret-down-outline"></ion-icon>
+    &nbsp;Retícula de Ingeniería en Sistemas Computacionales Modular ISIC-2010-224</b></div></ion-card>
+    <div class="panel">  
 
 
 <div>
-<ion-card button (click)="cardClick()"
-class="accordion" style="border-radius: 5px;" color="naranja">Primer Semestre</ion-card>
+<ion-card button
+class="accordion" style="border-radius: 5px;" color="verde">Primer Semestre</ion-card>
 <div class="panel">  
   <ul>
     <li> CÁLCULO DIFERENCIAL </li>
@@ -252,8 +245,8 @@ class="accordion" style="border-radius: 5px;" color="naranja">Primer Semestre</i
 </div>
 
 <div>
-<ion-card button (click)="cardClick()"
-class="accordion" style="border-radius: 5px;" color="naranja">Segundo Semestre</ion-card>
+<ion-card button 
+class="accordion" style="border-radius: 5px;" color="verde">Segundo Semestre</ion-card>
 <div class="panel">  
   <ul>
     <li> CÁLCULO INTEGRAL </li>
@@ -268,8 +261,8 @@ class="accordion" style="border-radius: 5px;" color="naranja">Segundo Semestre</
 </div>
 
 <div>
-<ion-card button (click)="cardClick()"
-class="accordion" style="border-radius: 5px;" color="naranja">Tercer Semestre</ion-card>
+<ion-card button 
+class="accordion" style="border-radius: 5px;" color="verde">Tercer Semestre</ion-card>
 <div class="panel">  
   <ul>
     <li> CÁLCULO VECTORIAL </li>
@@ -283,8 +276,8 @@ class="accordion" style="border-radius: 5px;" color="naranja">Tercer Semestre</i
 </div>
 
 <div>
-<ion-card button (click)="cardClick()"
-class="accordion" style="border-radius: 5px;" color="naranja">Cuarto Semestre</ion-card>
+<ion-card button 
+class="accordion" style="border-radius: 5px;" color="verde">Cuarto Semestre</ion-card>
 <div class="panel">  
   <ul>
       <li>  ECUACIONES DIFERENCIALES</li>
@@ -298,8 +291,8 @@ class="accordion" style="border-radius: 5px;" color="naranja">Cuarto Semestre</i
 </div>
 
 <div>
-<ion-card button (click)="cardClick()"
-class="accordion" style="border-radius: 5px;" color="naranja">Quinto Semestre</ion-card>
+<ion-card button 
+class="accordion" style="border-radius: 5px;" color="verde">Quinto Semestre</ion-card>
 <div class="panel">  
   <ul>
     <li> PRINCIPIOS ELÉCTRICOS Y APLICACIONES DIGITALES</li>
@@ -315,8 +308,8 @@ class="accordion" style="border-radius: 5px;" color="naranja">Quinto Semestre</i
 
 
 <div>
-  <ion-card button (click)="cardClick()"
-  class="accordion" style="border-radius: 5px;" color="naranja">Sexto Semestre</ion-card>
+  <ion-card button 
+  class="accordion" style="border-radius: 5px;" color="verde">Sexto Semestre</ion-card>
   <div class="panel">  
     <ul>
       <li> LENGUAJES Y AUTÓMATAS I </li>
@@ -331,8 +324,8 @@ class="accordion" style="border-radius: 5px;" color="naranja">Quinto Semestre</i
 
 
 <div>
-<ion-card button (click)="cardClick()"
-class="accordion" style="border-radius: 5px;" color="naranja">Septimo Semestre</ion-card>
+<ion-card button 
+class="accordion" style="border-radius: 5px;" color="verde">Septimo Semestre</ion-card>
 <div class="panel">  
   <ul>
     <li> LENGUAJES Y AUTÓMATAS II </li>
@@ -349,8 +342,8 @@ class="accordion" style="border-radius: 5px;" color="naranja">Septimo Semestre</
 
 
 <div>
-<ion-card button (click)="cardClick()"
-class="accordion" style="border-radius: 5px;" color="naranja">Octavo Semestre</ion-card>
+<ion-card button 
+class="accordion" style="border-radius: 5px;" color="verde">Octavo Semestre</ion-card>
 <div class="panel">  
   <ul>
     <li> PROGRAMACIÓN LÓGICA Y FUNCIONAL </li>
@@ -366,8 +359,8 @@ class="accordion" style="border-radius: 5px;" color="naranja">Octavo Semestre</i
 
 
 <div>
-<ion-card button (click)="cardClick()"
-class="accordion" style="border-radius: 5px;" color="naranja">Noveno Semestre</ion-card>
+<ion-card button 
+class="accordion" style="border-radius: 5px;" color="verde">Noveno Semestre</ion-card>
 <div class="panel">  
   <ul>
     <li> TALLER DE INVESTIGACIÓN II </li>
@@ -381,13 +374,13 @@ class="accordion" style="border-radius: 5px;" color="naranja">Noveno Semestre</i
 </div>
 
 <div>
-  <ion-card button (click)="cardClick()"
-  class="accordion" style="border-radius: 5px;" color="naranja">Décimo Semestre</ion-card>
+  <ion-card button 
+  class="accordion" style="border-radius: 5px;" color="verde">Décimo Semestre</ion-card>
   <div class="panel">  
     <ul>
       <li> INTELIGENCIA ARTIFICIAL </li>
       <li> NEGOCIOS ELECTRÓNICOS </li>
-      <li> PROYECTO INTEGRADORINTELIGENCIA DE NEGOCIOS O APLICACIONES MÓVILES </li>
+      <li> INTELIGENCIA DE NEGOCIOS O APLICACIONES MÓVILES </li>
       <li> NIVEL B1 (MCER)</li>
       <li> RESIDENCIA
         PROFESIONAL </li>
@@ -400,7 +393,111 @@ class="accordion" style="border-radius: 5px;" color="naranja">Noveno Semestre</i
 </div>
 </div>
 
-<div align="center">
-<img src="../../assets/imgsistemas/Logosistemas.png" />
 </div>
+
+
+
+<ion-card color="light">
+   
+ 
+  <ion-card color="naranja"> 
+  <div align="center">
+  <ion-card-title><b>Perfil del Aspirante</b></ion-card-title>
+  </div>
+  
+  </ion-card>
+  
+  <ion-card color="light">
+  <div class="ion-text-justify">
+  <h6>
+   <ion-text color="dark">El aspirante al programa de Ingeniería en Sistemas Computacionales, 
+     del Instituto Tecnologíco Superior de Teziutlan, debe tener Conocimientos en:
+  </ion-text>
+  </h6>
+  </div>
+  </ion-card>
+ 
+ 
+ 
+  <ion-card color="dark">
+  <ion-slides pager="true">
+  
+  <ion-slide>
+  <div class="ion-text-justify">
+  <div align="center">
+  <ion-text color="light"><b>Conocimientos</b></ion-text> </div>
+  <div align="center">
+  <ion-img style="width: 150px; height: 150px;" src="../../assets/imgsistemas/SisConocimientos.png"></ion-img>
+  </div>
+  </div>
+  <ul>
+  <li><h6>Manejo básico de una computadora</h6></li>
+  <li><h6>Uso básico de aplicaciones de oficina</h6></li>
+  <li><h6>Habilidades lógico – matemáticas para resolver problemas afines a los Sistemas Computacionales</h6></li>
+  <li><h6>Conceptos básicos de operaciones algebraicas y ecuaciones</h6></li>
+  </ul>
+  
+  </ion-slide>
+  
+  <ion-slide>
+  <div class="ion-text-justify">
+  <div align="center">
+  <ion-text color="light"> <b>Habilidades</b></ion-text></div>
+  <div align="center">
+  <ion-img style="width: 150px; height: 150px;" src="../../assets/imgsistemas/SisHabilidades.png"></ion-img>
+  </div>
+  </div>
+  <ul>
+  <li><h6>Tener hábitos y métodos adecuados para el estudio</h6></li>
+  <li><h6>Expresarse correctamente en forma oral y escrita</h6></li>
+  <li><h6>Razonamiento lógico matemático</h6></li>
+  <li><h6>Resolución de problemas en cualquier ámbito empresarial o social.</h6></li>
+  </ul>
+  </ion-slide>
+  
+  <ion-slide>
+  <div class="ion-text-justify">
+  <div align="center">
+  <ion-text color="light"><b>Intereses</b></ion-text></div>
+  <div align="center">
+  <ion-img style="width: 150px; height: 150px;" src="../../assets/imgsistemas/SisIntereses.png"></ion-img>
+  </div>
+  </div>
+  <ul>
+  <li><h6>Impulsar la ciencia, la tecnológica y la innovación a través del desarrollo y transferencia tecnológica.</h6></li>
+  <li><h6>Diseñar, desarrollar, implementar y administrar tecnología computacional.</h6></li>
+  <li><h6> Interés por las Ciencias Básicas.</h6></li>
+  <li><h6>Tecnologías de Cómputo con un nivel de abstracción para la interpretación de su contexto.</h6></li>
+  </ul>
+ </ion-slide>
+  
+ <ion-slide>
+  <div class="ion-text-justify">
+  <div align="center">
+  <ion-text color="light"><b>Actitudes</b></ion-text></div>
+  <div align="center">
+  <ion-img style="width: 150px; height: 150px;" src="../../assets/imgsistemas/SisActitudes.png"></ion-img>
+  </div>
+  </div>
+  <ul>
+  <li><h6>Compromiso</h6></li>
+  <li><h6>Responsabilidad</h6></li>
+  <li><h6>Trabajo en equipo</h6></li>
+  <li><h6>Emprendedurismo</h6></li>
+  <li><h6>Honestidad</h6></li>
+  </ul>
+ </ion-slide>
+  
+  
+  </ion-slides>
+ </ion-card>
+
+
+
+
+<div align="center">
+<img style="width: 250px; height: 80px;" src="../../assets/imgsistemas/Logosistemas.png" />
+</div>
+</ion-card>
+
 </ion-content>
