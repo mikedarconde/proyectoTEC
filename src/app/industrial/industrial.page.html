@@ -13,68 +13,79 @@
     
    <ion-card color="dark">
     <div align="center">
-    <ion-img style="width: 300px; height: 300px;" src="../../assets/imgindustrial/Pindustrial.png"></ion-img>
+    <ion-img  src="../../assets/imgindustrial/Pindustrial.png"></ion-img>
    </div>
    </ion-card>
    
    
   
-   <ion-card color="dark">
+   <ion-card color="verde">
     
+   <ion-card color="dark" class="ion-padding" >
     
    <ion-slides pager="true">
-    <ion-slide>
-    <div class="ion-text-justify">
-    <div align="center">
-    <font color="white"> <b>Objetivo General</b></font></div><br>
-    <h6><font face="Verdana"><font color="white">Formar profesionales, éticos, líderes, creativos y emprendedores en 
-      el área de Ingeniería Industrial; competente para diseñar, implantar, administrar, innovar y 
-      optimizar sistemas de producción de bienes y servicios; con enfoque sistémico y sustentable en un entorno global.</font></font></h6>
-    </div>
-    </ion-slide>
-    
-    
-    <ion-slide>
-    <div class="ion-text-justify">
-    <div align="center">
-    <font color="white"> <b>Misión</b></font></div><br>
-    <h6><font face="Verdana"><font color="white">Formar profesionales multidisciplinarios 
-      comprometidos con el mejoramiento del entorno, con alto sentido humano para el desarrollo 
-      sustentable de la nación.</font></font></h6>
-    </div>
-    </ion-slide>
-    
 
     <ion-slide>
-    <div class="ion-text-justify">
-    <div align="center">
-    <font color="white"><b>Visión</b></font></div><br>
-    <h6><font face="Verdana"><font color="white">Ser Ingeniero Industrial la mejor opción para los aspirantes de 
+    <ion-text color="light"><ion-button color="naranja">
+      <ion-icon name="checkmark-circle"></ion-icon> &nbsp;Objetivo General</ion-button>
+     <div class="ion-text-justify">
+     <h6>
+    Formar profesionales, éticos, líderes, creativos y emprendedores en 
+      el área de Ingeniería Industrial; competente para diseñar, implantar, administrar, innovar y 
+      optimizar sistemas de producción de bienes y servicios; con enfoque sistémico y sustentable en un entorno global.
+    </h6>
+  </div>
+    </ion-text>
+  </ion-slide>
+    
+  <ion-slide>
+    <ion-text color="light"><ion-button color="naranja">
+      <ion-icon name="checkmark-circle"></ion-icon> &nbsp;Misión</ion-button>
+     <div class="ion-text-justify">
+     <h6>Formar profesionales multidisciplinarios 
+      comprometidos con el mejoramiento del entorno, con alto sentido humano para el desarrollo 
+      sustentable de la nación.
+    </h6>
+  </div>
+    </ion-text>
+  </ion-slide>
+    
+
+  <ion-slide>
+    <ion-text color="light"><ion-button color="naranja">
+      <ion-icon name="checkmark-circle"></ion-icon> &nbsp;Visión</ion-button>
+     <div class="ion-text-justify">
+     <h6>Ser Ingeniero Industrial la mejor opción para los aspirantes de 
       la región y del Estado, y comprometida con la excelencia académica y la formación integral del alumno, para formar 
       profesionales con los requerimientos de los sectores productivos y de servicios, los cuales contribuyan 
-      al desarrollo sustentable de la sociedad.</font></font></h6>
+      al desarrollo sustentable de la sociedad.  </h6>
     </div>
+      </ion-text>
+    
+       
     </ion-slide>
-    
-   </ion-slides>
-    
-   </ion-card>
+       
+       </ion-slides>
+      </ion-card>
+    </ion-card>
   
 
 
   <div>
-    <ion-card button (click)="cardClick()" class="accordion" style="border-radius: 5px;" color="verde" > 
-   <div class="ion-text-center"><b>Retícula de Ingeniería Industrial Escolarizado IIND-2010-227</b></div></ion-card>
-  <div class="panel">  
+    <ion-card button 
+   class="accordion" color="naranja" >
+   <div class="ion-text-center"><b><ion-icon name="caret-down-outline"></ion-icon>
+    &nbsp;Retícula de Ingeniería Industrial Escolarizado IIND-2010-227</b></div></ion-card>
+    <div class="panel">  
+  
 
 
  
-  <div>
-  <ion-card button (click)="cardClick()"
- class="accordion" style="border-radius: 5px;" color="naranja">Primer Semestre</ion-card>
-<div class="panel">  
-    <ul>
-      <font face="Verdana">
+      <div>
+        <ion-card button 
+       class="accordion" style="border-radius: 5px;" color="verde">Primer Semestre</ion-card>
+      <div class="panel">  
+          <ul>
       <li> FUNDAMENTOS DE INVESTIGACIÓN </li>
       <li> TALLER DE ÉTICA </li>
       <li> CÁLCULO DIFERENCIAL </li>
@@ -83,14 +94,14 @@
       <li> DIBUJO INDUSTRIAL </li>
       <li> ANÁLISIS DE LA REALIDAD NACIONAL</li>
       <li> ACTIVIDAD EXTRAESCOLAR I</li>
-    </font>
+    
     </ul>
   </div>
 </div>
 
 <div>
-  <ion-card button (click)="cardClick()"
- class="accordion" style="border-radius: 5px;" color="naranja">Segundo Semestre</ion-card>
+  <ion-card button 
+ class="accordion" style="border-radius: 5px;" color="verde">Segundo Semestre</ion-card>
 <div class="panel">  
     <ul>
       <li> METROLOGÍA Y NORMALIZACIÓN </li>
@@ -106,8 +117,8 @@
 </div>
 
 <div>
-  <ion-card button (click)="cardClick()"
- class="accordion" style="border-radius: 5px;" color="naranja">Tercer Semestre</ion-card>
+  <ion-card button 
+ class="accordion" style="border-radius: 5px;" color="verde">Tercer Semestre</ion-card>
 <div class="panel">  
     <ul>
       <li> PROCESOS DE FABRICACIÓN </li>
@@ -123,8 +134,8 @@
 </div>
 
 <div>
-  <ion-card button (click)="cardClick()"
- class="accordion" style="border-radius: 5px;" color="naranja">Cuarto Semestre</ion-card>
+  <ion-card button 
+ class="accordion" style="border-radius: 5px;" color="verde">Cuarto Semestre</ion-card>
 <div class="panel">  
     <ul>
       <li> ADMINISTRACIÓN DE PROYECTOS </li>
@@ -140,8 +151,8 @@
 </div>
 
 <div>
-  <ion-card button (click)="cardClick()"
- class="accordion" style="border-radius: 5px;" color="naranja">Quinto Semestre</ion-card>
+  <ion-card button 
+ class="accordion" style="border-radius: 5px;" color="verde">Quinto Semestre</ion-card>
 <div class="panel">  
     <ul>
       <li> TALLER DE INVESTIGACIÓN I </li>
@@ -160,8 +171,8 @@
 
 
 <div>
-  <ion-card button (click)="cardClick()"
- class="accordion" style="border-radius: 5px;" color="naranja">Sexto Semestre</ion-card>
+  <ion-card button 
+ class="accordion" style="border-radius: 5px;" color="verde">Sexto Semestre</ion-card>
 <div class="panel">  
     <ul>
       <li> TALLER DE INVESTIGACIÓN I </li>
@@ -177,8 +188,8 @@
 </div>
 
 <div>
-  <ion-card button (click)="cardClick()"
- class="accordion" style="border-radius: 5px;" color="naranja">Septimo Semestre</ion-card>
+  <ion-card button 
+ class="accordion" style="border-radius: 5px;" color="verde">Septimo Semestre</ion-card>
 <div class="panel">  
     <ul>
       <li> RELACIONES INDUSTRIALES </li>
@@ -196,8 +207,8 @@
 
 
 <div>
-  <ion-card button (click)="cardClick()"
- class="accordion" style="border-radius: 5px;" color="naranja">Octavo Semestre</ion-card>
+  <ion-card button 
+ class="accordion" style="border-radius: 5px;" color="verde">Octavo Semestre</ion-card>
 <div class="panel">  
     <ul>
       <li> FORMULACIÓN Y EVALUACIÓN DE PROYECTOS </li>
@@ -212,8 +223,8 @@
 
 
 <div>
-  <ion-card button (click)="cardClick()"
- class="accordion" style="border-radius: 5px;" color="naranja">Noveno Semestre</ion-card>
+  <ion-card button 
+ class="accordion" style="border-radius: 5px;" color="verde">Octavo Semestre</ion-card>
 <div class="panel">  
     <ul>
       <li> RESIDENCIA PROFESIONAL </li>
@@ -228,19 +239,20 @@
 
 <!--  -->
 
-
 <div>
-  <ion-card button (click)="cardClick()"
- class="accordion" style="border-radius: 5px;" color="verde">
- <div class="ion-text-center">
-<b> Retícula de Ingeniería Industrial Mixto IIND-2010-227</b></div></ion-card>
+  <div>
+    <ion-card button 
+   class="accordion" style="border-radius: 5px;" color="naranja">
+   <div class="ion-text-center">
+  <b><ion-icon name="caret-down-outline"></ion-icon>
+    &nbsp; Retícula de Ingeniería Industrial Mixto IIND-2010-227</b></div></ion-card>
 <div class="panel">  
 
 
 
 <div>
-<ion-card button (click)="cardClick()"
-class="accordion" style="border-radius: 5px;" color="naranja">Primer Semestre</ion-card>
+<ion-card button
+class="accordion" style="border-radius: 5px;" color="verde">Primer Semestre</ion-card>
 <div class="panel">  
   <ul>
     <li> FUNDAMENTOS DE INVESTIGACIÓN </li>
@@ -255,8 +267,8 @@ class="accordion" style="border-radius: 5px;" color="naranja">Primer Semestre</i
 </div>
 
 <div>
-<ion-card button (click)="cardClick()"
-class="accordion" style="border-radius: 5px;" color="naranja">Segundo Semestre</ion-card>
+<ion-card button
+class="accordion" style="border-radius: 5px;" color="verde">Segundo Semestre</ion-card>
 <div class="panel">  
   <ul>
     <li> ELECTRICIDAD Y ELECTRÓNICA INDUSTRIAL</li>
@@ -271,8 +283,8 @@ class="accordion" style="border-radius: 5px;" color="naranja">Segundo Semestre</
 </div>
 
 <div>
-<ion-card button (click)="cardClick()"
-class="accordion" style="border-radius: 5px;" color="naranja">Tercer Semestre</ion-card>
+<ion-card button
+class="accordion" style="border-radius: 5px;" color="verde">Tercer Semestre</ion-card>
 <div class="panel">  
   <ul>
     <li> METROLOGÍA Y NORMALIZACIÓN </li>
@@ -286,8 +298,8 @@ class="accordion" style="border-radius: 5px;" color="naranja">Tercer Semestre</i
 </div>
 
 <div>
-<ion-card button (click)="cardClick()"
-class="accordion" style="border-radius: 5px;" color="naranja">Cuarto Semestre</ion-card>
+<ion-card button
+class="accordion" style="border-radius: 5px;" color="verde">Cuarto Semestre</ion-card>
 <div class="panel">  
   <ul>
       <li>  PROCESOS DE FABRICACIÓN </li>
@@ -301,8 +313,8 @@ class="accordion" style="border-radius: 5px;" color="naranja">Cuarto Semestre</i
 </div>
 
 <div>
-<ion-card button (click)="cardClick()"
-class="accordion" style="border-radius: 5px;" color="naranja">Quinto Semestre</ion-card>
+<ion-card button
+class="accordion" style="border-radius: 5px;" color="verde">Quinto Semestre</ion-card>
 <div class="panel">  
   <ul>
     <li> ADMINISTRACIÓN DE PROYECTOS</li>
@@ -318,8 +330,8 @@ class="accordion" style="border-radius: 5px;" color="naranja">Quinto Semestre</i
 
 
 <div>
-  <ion-card button (click)="cardClick()"
-  class="accordion" style="border-radius: 5px;" color="naranja">Sexto Semestre</ion-card>
+  <ion-card button
+  class="accordion" style="border-radius: 5px;" color="verde">Sexto Semestre</ion-card>
   <div class="panel">  
     <ul>
       <li> TALLER DE INVESTIGACIÓN I </li>
@@ -334,8 +346,8 @@ class="accordion" style="border-radius: 5px;" color="naranja">Quinto Semestre</i
 
 
 <div>
-<ion-card button (click)="cardClick()"
-class="accordion" style="border-radius: 5px;" color="naranja">Septimo Semestre</ion-card>
+<ion-card button
+class="accordion" style="border-radius: 5px;" color="verde">Septimo Semestre</ion-card>
 <div class="panel">  
   <ul>
     <li> TALLER DE INVESTIGACIÓN II </li>
@@ -352,8 +364,8 @@ class="accordion" style="border-radius: 5px;" color="naranja">Septimo Semestre</
 
 
 <div>
-<ion-card button (click)="cardClick()"
-class="accordion" style="border-radius: 5px;" color="naranja">Octavo Semestre</ion-card>
+<ion-card button
+class="accordion" style="border-radius: 5px;" color="verde">Octavo Semestre</ion-card>
 <div class="panel">  
   <ul>
     <li> PLANEACIÓN FINANCIERA </li>
@@ -368,8 +380,8 @@ class="accordion" style="border-radius: 5px;" color="naranja">Octavo Semestre</i
 
 
 <div>
-<ion-card button (click)="cardClick()"
-class="accordion" style="border-radius: 5px;" color="naranja">Noveno Semestre</ion-card>
+<ion-card button
+class="accordion" style="border-radius: 5px;" color="verde">Noveno Semestre</ion-card>
 <div class="panel">  
   <ul>
     <li>FORMULACIÓN Y EVALUACIÓN DE PROYECTOS </li>
@@ -384,8 +396,8 @@ class="accordion" style="border-radius: 5px;" color="naranja">Noveno Semestre</i
 </div>
 
 <div>
-  <ion-card button (click)="cardClick()"
-  class="accordion" style="border-radius: 5px;" color="naranja">Décimo Semestre</ion-card>
+  <ion-card button 
+  class="accordion" style="border-radius: 5px;" color="verde">Décimo Semestre</ion-card>
   <div class="panel">  
     <ul>
       <li> MANUFACTURA ASISTIDA POR COMPUTADORA (CAM) </li>
@@ -402,8 +414,108 @@ class="accordion" style="border-radius: 5px;" color="naranja">Noveno Semestre</i
 
 </div>
 </div>
+</div>
+
+ <!--Perfil del Aspirante-->
+ <ion-card color="light">
+   
+ 
+  <ion-card color="naranja"> 
+  <div align="center">
+  <ion-card-title><b>Perfil del Aspirante</b></ion-card-title>
+  </div>
+  
+  </ion-card>
+  
+  <ion-card color="light">
+  <div class="ion-text-justify">
+  <h6>
+   <ion-text color="dark">El aspirante a cursar la carrera Ingeniería Industrial en el Instituto 
+  Tecnológico Superior de Teziutlán deberá haber concluido el bachillerato 
+  general, y contar preferentemente con:
+  </ion-text>
+  </h6>
+  </div>
+  </ion-card>
+ 
+ 
+ 
+  <ion-card color="dark">
+  <ion-slides pager="true">
+  
+  <ion-slide>
+  <div class="ion-text-justify">
+  <div align="center">
+  <ion-text color="light"><b>Conocimientos</b></ion-text> </div>
+  <div align="center">
+  <ion-img style="width: 150px; height: 150px;" src="../../assets/imgindustrial/IndConocimientos.png"></ion-img>
+  </div>
+  </div>
+  <ul>
+  <li><h6>Area fisicomatemáticas</h6></li>
+  <li><h6>Areas administrativas y humanas</h6></li>
+  <li><h6>Uso de las tecnologías de información</h6></li>
+  <li><h6>Conceptos básicos de operaciones algebraicas y ecuaciones</h6></li>
+  </ul>
+  
+  </ion-slide>
+  
+  <ion-slide>
+  <div class="ion-text-justify">
+  <div align="center">
+  <ion-text color="light"> <b>Habilidades</b></ion-text></div>
+  <div align="center">
+  <ion-img style="width: 150px; height: 150px;" src="../../assets/imgindustrial/IndHabilidades.png"></ion-img>
+  </div>
+  </div>
+  <ul>
+  <li><h6>Tener hábitos y métodos adecuados para el estudio</h6></li>
+  <li><h6>Expresarse correctamente en forma oral y escrita</h6></li>
+  <li><h6>Analizar y sintetizar problemas prácticos y de la vida real</h6></li>
+  <li><h6>Razonamiento lógico matemático</h6></li>
+  <li><h6>Resolución de problemas</h6></li>
+  </ul>
+  </ion-slide>
+  
+  <ion-slide>
+  <div class="ion-text-justify">
+  <div align="center">
+  <ion-text color="light"><b>Intereses</b></ion-text></div>
+  <div align="center">
+  <ion-img style="width: 150px; height: 150px;" src="../../assets/imgindustrial/IndIntereses.png"></ion-img>
+  </div>
+  </div>
+  <ul>
+  <li><h6>Aprendizaje de maquinaria industrial</h6></li>
+  <li><h6>Manejar y utilizar diferentes tecnologías de información</h6></li>
+  <li><h6>Creación de soluciones prácticas e innovadoras a problemas de la vida real</h6></li>
+  <li><h6>Optimizar sistemas de producción de bienes y servicio</h6></li>
+  </ul>
+ </ion-slide>
+  
+ <ion-slide>
+  <div class="ion-text-justify">
+  <div align="center">
+  <ion-text color="light"><b>Actitudes</b></ion-text></div>
+  <div align="center">
+  <ion-img style="width: 150px; height: 150px;" src="../../assets/imgindustrial/IndActitudes.png"></ion-img>
+  </div>
+  </div>
+  <ul>
+  <li><h6>Compromiso</h6></li>
+  <li><h6>Responsabilidad</h6></li>
+  <li><h6>Deseo de aprender</h6></li>
+  <li><h6>Trabajo en equipo</h6></li>
+  </ul>
+ </ion-slide>
+  
+  
+  </ion-slides>
+ </ion-card>
 
 <div align="center">
-<img src="../../assets/imgindustrial/LogoIndustrial.png" />
+<img style="width: 250px; height: 80px;"  src="../../assets/imgindustrial/LogoIndustrial.png" />
 </div>
+
+</ion-card>
 </ion-content>
