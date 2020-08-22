@@ -20,6 +20,7 @@
  
 
  <!-- Casa Cisco-->
+ 
 <ion-card color="dark">
   <div align="center">
     <p>
@@ -32,14 +33,18 @@
   </ion-card-title>
   </div>
  <!-- Acrodeon-->
-
-  <div>
-  <ion-card button (click)="cardClick()"
+    
+  <ion-card  button class="card-center"
   class="accordion" style="border-radius: 5px;" color="naranja">
   <div class="ion-text-center">
-  <b>Certificaciones Cisco</b></div></ion-card>
+  <b><ion-icon name="caret-down-outline"></ion-icon>&nbsp;&nbsp;Certificaciones Cisco</b></div></ion-card>
   <div class="panel"> 
-  
+<div>
+
+
+
+
+
   <ion-card color="light">
     <ion-img style="border: green 3px solid;" src="../../assets/certificaciones/CCNA1.png"></ion-img>
   <ion-card-content>
@@ -56,25 +61,27 @@
   
   </p>
 
-  <ion-card button (click)="cardClick()" class="accordion" style="border-radius: 5px;">
+ 
     <ion-item color="naranja">
       <ion-icon name="people"></ion-icon>
       <ion-label>&nbsp;<b>Dirigido a:</b><br>
       </ion-label>    
     </ion-item>
-    
     <ul>
       <li><h6>ALUMNOS DE INGENIERÍA EN SISTEMAS COMPUTACIONALES</h6></li>
-      <li><h6>ALUMNOS DE INGENIERÍA INFORMÁTICAL</h6></li>
+      <li><h6>ALUMNOS DE INGENIERÍA INFORMÁTICA</h6></li>
     </ul>
     
-  </ion-card>
+ 
 
 
   </div>
   </ion-card-content>
   </ion-card>
 
+</div>
+
+<div>
   <ion-card color="light">
     <ion-img style="border: green 3px solid;" src="../../assets/certificaciones/CCNA21.png"></ion-img>
     <ion-card-content>
@@ -89,9 +96,9 @@
     inalámbricas (WLAN) y conceptos de seguridad.
     </p>
     
-    <ion-card button (click)="cardClick()" class="accordion" style="border-radius: 5px;">
+  
       <ion-item color="naranja">
-        <ion-icon name="people" ></ion-icon>
+        <ion-icon name="people"></ion-icon>
         <ion-label>&nbsp;<b>Dirigido a:</b><br>
         </ion-label>    
       </ion-item>
@@ -99,11 +106,16 @@
         <li><h6>ALUMNOS DE INGENIERÍA EN SISTEMAS COMPUTACIONALES</h6></li>
         <li><h6>ALUMNOS DE INGENIERÍA INFORMÁTICA</h6></li>
       </ul>
-    </ion-card>
+      
+  
+
 
     </div>
     </ion-card-content>
     </ion-card>
+  </div>
+
+    
 
     <ion-card color="light">
       <ion-img style="border: green 3px solid;" src="../../assets/certificaciones/CCNA3.jpeg"></ion-img>
@@ -119,7 +131,6 @@
          enrutadores y conmutadores para una funcionalidad avanzada. 
       </p>
 
-      <ion-card button (click)="cardClick()" class="accordion" style="border-radius: 5px;">
         <ion-item color="naranja">
           <ion-icon name="people" ></ion-icon>
           <ion-label>&nbsp;<b>Dirigido a:</b><br>
@@ -129,13 +140,15 @@
           <li><h6>ALUMNOS DE INGENIERÍA EN SISTEMAS COMPUTACIONALES</h6></li>
           <li><h6>ALUMNOS DE INGENIERÍA INFORMÁTICA</h6></li>
         </ul>
-      </ion-card>
+     
 
       </div>
-      </ion-card-content>
+      </ion-card-content >
       </ion-card>
 
-      <ion-card>
+    
+
+      <ion-card color="light">
         <ion-img style="border: green 3px solid;" src="../../assets/certificaciones/CCNA4.png"></ion-img>
         <ion-card-content>
         <ion-card-title>
@@ -149,9 +162,9 @@
           direccionamiento IP acorde a las necesidades de Redes pequeñas y medianas.<br>
           Con la aprobación de este módulo, se completa CCNA, que es la base de las carreras
            de Cisco Systems.
-        </p>
+          </p>
 
-        <ion-card button (click)="cardClick()" class="accordion" style="border-radius: 5px;">
+       
           <ion-item color="naranja">
             <ion-icon name="people" ></ion-icon>
             <ion-label>&nbsp;<b>Dirigido a:</b><br>
@@ -161,7 +174,7 @@
             <li><h6>ALUMNOS DE INGENIERÍA EN SISTEMAS COMPUTACIONALES</h6></li>
             <li><h6>ALUMNOS DE INGENIERÍA INFORMÁTICA</h6></li>
           </ul>
-        </ion-card>
+       
   
         </div>
         </ion-card-content>
@@ -184,7 +197,7 @@
               in Python), redes y electrónica.
           </p>
 
-          <ion-card button (click)="cardClick()" class="accordion" style="border-radius: 5px;">
+         
             <ion-item color="naranja">
               <ion-icon name="people" ></ion-icon>
               <ion-label>&nbsp;<b>Dirigido a:</b><br>
@@ -194,7 +207,7 @@
               <li><h6>ALUMNOS DE INGENIERÍA EN SISTEMAS COMPUTACIONALES</h6></li>
               <li><h6>ALUMNOS DE INGENIERÍA INFORMÁTICA</h6></li>
             </ul>
-          </ion-card>
+       
 
           </div>
           </ion-card-content>
@@ -202,7 +215,7 @@
 
   
   </div>
-  </div>
+ 
   
 
  <!-- Fin-->
@@ -226,10 +239,10 @@
  <!-- Acordeon-->
 
   <div>
-  <ion-card button (click)="cardClick()"
+  <ion-card 
   class="accordion" style="border-radius: 5px;" color="naranja">
   <div class="ion-text-center">
-  <b> Certificaciones ETC IBEROAMERICA</b></div></ion-card>
+  <b> <ion-icon name="caret-down-outline"></ion-icon>&nbsp;&nbsp;Certificaciones ETC IBEROAMERICA</b></div></ion-card>
   <div class="panel"> 
   
     <!-- ACU- AUTODESK AUTOCAD CERTIFIED USER-->
@@ -249,7 +262,7 @@
        universitario o profesional.
   </p>
 
-  <ion-card button (click)="cardClick()" class="accordion" style="border-radius: 5px;">
+ 
     <ion-item color="naranja">
       <ion-icon name="people" ></ion-icon>
       <ion-label>&nbsp;<b>Dirigido a:</b><br>
@@ -260,7 +273,7 @@
       <li><h6>ALUMNOS DE INGENIERÍA MECATRÓNICA</h6></li>
       <li><h6>ALUMNOS DE INGENIERÍA INDUSTRIAL</h6></li>
     </ul>
-  </ion-card>
+
 
 
 
@@ -283,7 +296,7 @@
        prevenir futuros ataques.
     </p>
 
-    <ion-card button (click)="cardClick()" class="accordion" style="border-radius: 5px;">
+   
       <ion-item color="naranja">
         <ion-icon name="people" ></ion-icon>
         <ion-label>&nbsp;<b>Dirigido a:</b><br>
@@ -294,7 +307,7 @@
         <li><h6>ALUMNOS DE INGENIERÍA EN SISTEMAS COMPUTACIONALES</h6></li>
         <li><h6>ALUMNOS DE INGENIERÍA INFORMÁTICA</h6></li>
       </ul>
-    </ion-card>
+   
 
     </div>
     </ion-card-content>
@@ -317,7 +330,7 @@
          seguridad de la información desde una perspectiva neutral.
       </p>
 
-      <ion-card button (click)="cardClick()" class="accordion" style="border-radius: 5px;">
+    
         <ion-item color="naranja">
           <ion-icon name="people" ></ion-icon>
           <ion-label>&nbsp;<b>Dirigido a:</b><br>
@@ -328,7 +341,7 @@
           <li><h6>ALUMNOS DE INGENIERÍA EN SISTEMAS COMPUTACIONALES</h6></li>
           <li><h6>ALUMNOS DE INGENIERÍA INFORMÁTICA</h6></li>
         </ul>
-      </ion-card>
+   
 
       </div>
       </ion-card-content>
@@ -355,7 +368,7 @@
               FINANCIERA</li>
         </p>
 
-        <ion-card button (click)="cardClick()" class="accordion" style="border-radius: 5px;">
+       
           <ion-item color="naranja">
             <ion-icon name="people" ></ion-icon>
             <ion-label>&nbsp;<b>Dirigido a:</b><br>
@@ -370,7 +383,7 @@
             <li><h6>ALUMNOS DE INGENIERÍA EN INDUSTRIAS ALIMENTARIAS</h6></li>
             <li><h6>ALUMNOS DE INGENIERÍA MECATRÓNICA</h6></li>
           </ul>
-        </ion-card>
+       
 
         </div>
         </ion-card-content>
@@ -391,7 +404,7 @@
            IC3 Spark, IC3 Fast Track e IC PHP Developer Fundamentals.
         </p>
 
-        <ion-card button (click)="cardClick()" class="accordion" style="border-radius: 5px;">
+      
           <ion-item color="naranja">
             <ion-icon name="people" ></ion-icon>
             <ion-label>&nbsp;<b>Dirigido a:</b><br>
@@ -406,7 +419,7 @@
             <li><h6>ALUMNOS DE INGENIERÍA EN INDUSTRIAS ALIMENTARIAS</h6></li>
             <li><h6>ALUMNOS DE INGENIERÍA MECATRÓNICA</h6></li>
           </ul>
-        </ion-card>
+       
 
 
         </div>
@@ -429,7 +442,7 @@
           <li>Bases de datos.</li> 
         </p>
 
-        <ion-card button (click)="cardClick()" class="accordion" style="border-radius: 5px;">
+       
           <ion-item color="naranja">
             <ion-icon name="people" ></ion-icon>
             <ion-label>&nbsp;<b>Dirigido a:</b><br>
@@ -444,7 +457,7 @@
             <li><h6>ALUMNOS DE INGENIERÍA EN INDUSTRIAS ALIMENTARIAS</h6></li>
             <li><h6>ALUMNOS DE INGENIERÍA MECATRÓNICA</h6></li>
           </ul>
-        </ion-card>
+       
 
         </div>
         </ion-card-content>
@@ -467,7 +480,7 @@
         
         </p>
 
-        <ion-card button (click)="cardClick()" class="accordion" style="border-radius: 5px;">
+        
           <ion-item color="naranja">
             <ion-icon name="people" ></ion-icon>
             <ion-label>&nbsp;<b>Dirigido a:</b><br>
@@ -482,7 +495,7 @@
             <li><h6>ALUMNOS DE INGENIERÍA EN INDUSTRIAS ALIMENTARIAS</h6></li>
             <li><h6>ALUMNOS DE INGENIERÍA MECATRÓNICA</h6></li>
           </ul>
-        </ion-card>
+       
 
 
         </div>
@@ -506,7 +519,7 @@
           entregar una experiencia de aprendizaje personalizada  para sus estudiantes mediante el uso de la tecnología.
         </p>
 
-        <ion-card button (click)="cardClick()" class="accordion" style="border-radius: 5px;">
+        
           <ion-item color="naranja">
             <ion-icon name="people" ></ion-icon>
             <ion-label>&nbsp;<b>Dirigido a:</b><br>
@@ -520,7 +533,7 @@
             <li><h6>DOCENTES DE INGENIERÍA EN INDUSTRIAS ALIMENTARIAS</h6></li>
             <li><h6>DOCENTES DE INGENIERÍA MECATRÓNICA</h6></li>
           </ul>
-        </ion-card>
+     
 
 
         </div>
@@ -542,7 +555,7 @@
 
         </p>
 
-        <ion-card button (click)="cardClick()" class="accordion" style="border-radius: 5px;">
+        
           <ion-item color="naranja">
             <ion-icon name="people" ></ion-icon>
             <ion-label>&nbsp;<b>Dirigido a:</b><br>
@@ -553,7 +566,7 @@
             <li><h6>ALUMNOS DE INGENIERÍA INFORMÁTICA</h6></li>
             <li><h6>ALUMNOS DE INGENIERÍA EN SISTEMAS COMPUTACIONALES</h6></li>
           </ul>
-        </ion-card>
+      
 
 
         </div>
@@ -576,7 +589,7 @@
           lógicamente un problema determinado.
         </p>
 
-        <ion-card button (click)="cardClick()" class="accordion" style="border-radius: 5px;">
+        
           <ion-item color="naranja">
             <ion-icon name="people" ></ion-icon>
             <ion-label>&nbsp;<b>Dirigido a:</b><br>
@@ -587,7 +600,7 @@
             <li><h6>ALUMNOS DE INGENIERÍA INFORMÁTICA</h6></li>
             <li><h6>ALUMNOS DE INGENIERÍA EN SISTEMAS COMPUTACIONALES</h6></li>
           </ul>
-        </ion-card>
+        
 
         </div>
         </ion-card-content>
@@ -610,7 +623,6 @@
          una futura carrera en tecnología.
         </p>
 
-        <ion-card button (click)="cardClick()" class="accordion" style="border-radius: 5px;">
           <ion-item color="naranja">
             <ion-icon name="people" ></ion-icon>
             <ion-label>&nbsp;<b>Dirigido a:</b><br>
@@ -621,7 +633,7 @@
             <li><h6>ALUMNOS DE INGENIERÍA INFORMÁTICA</h6></li>
             <li><h6>ALUMNOS DE INGENIERÍA EN SISTEMAS COMPUTACIONALES</h6></li>
           </ul>
-        </ion-card>
+     
 
 
         </div>
@@ -645,7 +657,7 @@
            (AR) y realidad virtual (VR).
         </p>
 
-        <ion-card button (click)="cardClick()" class="accordion" style="border-radius: 5px;">
+     
           <ion-item color="naranja">
             <ion-icon name="people" ></ion-icon>
             <ion-label>&nbsp;<b>Dirigido a:</b><br>
@@ -656,7 +668,7 @@
             <li><h6>ALUMNOS DE INGENIERÍA INFORMÁTICA</h6></li>
             <li><h6>ALUMNOS DE INGENIERÍA EN SISTEMAS COMPUTACIONALES</h6></li>
           </ul>
-        </ion-card>
+       
 
 
         </div>
@@ -685,10 +697,10 @@
    <!-- Acrodeon-->
   
     <div>
-    <ion-card button (click)="cardClick()"
+    <ion-card button 
     class="accordion" style="border-radius: 5px;" color="naranja">
     <div class="ion-text-center">
-    <b> Certificaciones TestingProgram</b></div></ion-card>
+    <b> <ion-icon name="caret-down-outline"></ion-icon>&nbsp;&nbsp;Certificaciones TestingProgram</b></div></ion-card>
     <div class="panel"> 
     
     <ion-card color="light">
@@ -710,7 +722,7 @@
  
     </p>
 
-    <ion-card button (click)="cardClick()" class="accordion" style="border-radius: 5px;">
+   
       <ion-item color="naranja">
         <ion-icon name="people" ></ion-icon>
         <ion-label>&nbsp;<b>Dirigido a:</b><br>
@@ -725,7 +737,7 @@
         <li><h6>ALUMNOS DE INGENIERÍA EN INDUSTRIAS ALIMENTARIAS</h6></li>
         <li><h6>ALUMNOS DE INGENIERÍA MECATRÓNICA</h6></li>
       </ul>
-    </ion-card>
+  
 
     </div>
     </ion-card-content>
@@ -748,7 +760,7 @@
       </p>
 
     
-      <ion-card button (click)="cardClick()" class="accordion" style="border-radius: 5px;">
+     
         <ion-item color="naranja">
           <ion-icon name="people" ></ion-icon>
           <ion-label>&nbsp;<b>Dirigido a:</b><br>
@@ -761,7 +773,7 @@
           <li><h6>ALUMNOS DE INGENIERÍA INDUSTRIAL</h6></li>
           <li><h6>ALUMNOS DE INGENIERÍA MECATRÓNICA</h6></li>
         </ul>
-      </ion-card>
+     
 
 
       </div>
@@ -782,7 +794,7 @@
         </p>
 
       
-        <ion-card button (click)="cardClick()" class="accordion" style="border-radius: 5px;">
+    
           <ion-item color="naranja">
             <ion-icon name="people"></ion-icon>
             <ion-label>&nbsp;<b>Dirigido a:</b><br>
@@ -794,7 +806,7 @@
             <li><h6>ALUMNOS DE INGENIERÍA INFORMÁTICA</h6></li>
             <li><h6>ALUMNOS DE INGENIERÍA INGENIERÍA EN GESTIÓN EMPRESARIAL</h6></li>
           </ul>
-        </ion-card>
+       
         
 
       </div>
