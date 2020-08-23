@@ -1,3 +1,4 @@
+
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 import { MenuController } from '@ionic/angular';
@@ -48,6 +49,14 @@ const routes: Routes = [
     path: 'ind-alimentarias',
     loadChildren: () => import('./ind-alimentarias/ind-alimentarias.module').then( m => m.IndAlimentariasPageModule)
   },
+  {
+    path: 'certificaciones',
+    loadChildren: () => import('./certificaciones/certificaciones.module').then( m => m.CertificacionesPageModule)
+  },  {
+    path: 'canal',
+    loadChildren: () => import('./canal/canal.module').then( m => m.CanalPageModule)
+  },
+
 
 
 ];

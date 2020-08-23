@@ -4,19 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { InicioPageRoutingModule } from './inicio-routing.module';
+import { CertificacionesPageRoutingModule } from './certificaciones-routing.module';
 
-import { InicioPage } from './inicio.page';
-
+import { CertificacionesPage } from './certificaciones.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    InicioPageRoutingModule
+    CertificacionesPageRoutingModule
   ],
-  declarations: [InicioPage]
+  declarations: [CertificacionesPage]
 })
-export class InicioPageModule {}
-
+export class CertificacionesPageModule {}

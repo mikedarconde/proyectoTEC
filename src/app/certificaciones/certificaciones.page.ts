@@ -1,16 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 
-
 @Component({
-  selector: 'app-informatica',
-  templateUrl: './informatica.page.html',
-  styleUrls: ['./informatica.page.scss'],
+  selector: 'app-certificaciones',
+  templateUrl: './certificaciones.page.html',
+  styleUrls: ['./certificaciones.page.scss'],
 })
-export class InformaticaPage implements OnInit {
+export class CertificacionesPage implements OnInit {
 
-  constructor() {}
-
- 
+  constructor() { }
 
   ngOnInit() {
     var acc = document.getElementsByClassName("accordion");
@@ -34,6 +31,6 @@ export class InformaticaPage implements OnInit {
       }
      
    
- 
-      
   }
+
+
