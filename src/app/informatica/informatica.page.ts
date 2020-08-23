@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-informatica',
   templateUrl: './informatica.page.html',
@@ -7,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InformaticaPage implements OnInit {
 
-  constructor() { }
+  constructor() {}
+
+ 
 
   ngOnInit() {
     var acc = document.getElementsByClassName("accordion");
@@ -29,6 +32,10 @@ export class InformaticaPage implements OnInit {
       });
     }
       }
+     
+   
+ 
+      
   }
 
 
