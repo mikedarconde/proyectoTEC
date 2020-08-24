@@ -37,6 +37,3 @@ export class InformaticaPage implements OnInit {
  
       
   }
-
-
-

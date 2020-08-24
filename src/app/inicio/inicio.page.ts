@@ -43,3 +43,4 @@ export class InicioPage implements OnInit {
   this.ocultar7 = !this.ocultar7;
   }
 }
+
